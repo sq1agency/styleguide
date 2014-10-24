@@ -1123,6 +1123,105 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/images\/backgrounds\/1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.10555e+06,
+		"inputAbbreviatedPath": "\/_site\/images\/backgrounds\/1.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/backgrounds\/1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/backgrounds\/2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 687663,
+		"inputAbbreviatedPath": "\/_site\/images\/backgrounds\/2.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/backgrounds\/2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/backgrounds\/3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 387513,
+		"inputAbbreviatedPath": "\/_site\/images\/backgrounds\/3.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/backgrounds\/3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/backgrounds\/4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 306710,
+		"inputAbbreviatedPath": "\/_site\/images\/backgrounds\/4.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/backgrounds\/4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/backgrounds\/5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149954,
+		"inputAbbreviatedPath": "\/_site\/images\/backgrounds\/5.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/backgrounds\/5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/backgrounds\/6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50594,
+		"inputAbbreviatedPath": "\/_site\/images\/backgrounds\/6.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/backgrounds\/6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/backgrounds\/7 copy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/_site\/images\/backgrounds\/7 copy.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/backgrounds\/7 copy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/backgrounds\/dfrg-login-bg-lightened-flipped.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111141,
+		"inputAbbreviatedPath": "\/_site\/images\/backgrounds\/dfrg-login-bg-lightened-flipped.jpeg",
+		"outputAbbreviatedPath": "\/_site\/images\/backgrounds\/dfrg-login-bg-lightened-flipped.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/backgrounds\/dfrg-login-bg-lightened.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111141,
+		"inputAbbreviatedPath": "\/_site\/images\/backgrounds\/dfrg-login-bg-lightened.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/backgrounds\/dfrg-login-bg-lightened.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/sq1-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1154,6 +1253,22 @@
 		"outputAbbreviatedPath": "\/_site\/README.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/sass\/styleguide.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/sass\/styleguide.scss",
+		"outputAbbreviatedPath": "\/css\/styleguide.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/bower_components\/bootstrap-sass-twbs\/assets\/javascripts\/bootstrap-sprockets.js": {
 		"fileType": 64,
@@ -3446,6 +3561,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/styleguide.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/styleguide.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/styles.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -3454,6 +3578,105 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/images\/backgrounds\/1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.10555e+06,
+		"inputAbbreviatedPath": "\/images\/backgrounds\/1.jpg",
+		"outputAbbreviatedPath": "\/images\/backgrounds\/1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/backgrounds\/2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 687663,
+		"inputAbbreviatedPath": "\/images\/backgrounds\/2.jpg",
+		"outputAbbreviatedPath": "\/images\/backgrounds\/2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/backgrounds\/3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 387513,
+		"inputAbbreviatedPath": "\/images\/backgrounds\/3.jpg",
+		"outputAbbreviatedPath": "\/images\/backgrounds\/3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/backgrounds\/4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 306710,
+		"inputAbbreviatedPath": "\/images\/backgrounds\/4.jpg",
+		"outputAbbreviatedPath": "\/images\/backgrounds\/4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/backgrounds\/5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149954,
+		"inputAbbreviatedPath": "\/images\/backgrounds\/5.jpg",
+		"outputAbbreviatedPath": "\/images\/backgrounds\/5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/backgrounds\/6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50594,
+		"inputAbbreviatedPath": "\/images\/backgrounds\/6.jpg",
+		"outputAbbreviatedPath": "\/images\/backgrounds\/6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/backgrounds\/7 copy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 645341,
+		"inputAbbreviatedPath": "\/images\/backgrounds\/7 copy.jpg",
+		"outputAbbreviatedPath": "\/images\/backgrounds\/7 copy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/backgrounds\/dfrg-login-bg-lightened-flipped.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111141,
+		"inputAbbreviatedPath": "\/images\/backgrounds\/dfrg-login-bg-lightened-flipped.jpeg",
+		"outputAbbreviatedPath": "\/images\/backgrounds\/dfrg-login-bg-lightened-flipped.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/backgrounds\/dfrg-login-bg-lightened.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111141,
+		"inputAbbreviatedPath": "\/images\/backgrounds\/dfrg-login-bg-lightened.jpg",
+		"outputAbbreviatedPath": "\/images\/backgrounds\/dfrg-login-bg-lightened.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/sq1-logo.jpg": {
 		"fileType": 16384,
