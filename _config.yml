@@ -1,5 +1,3 @@
 timezone: US/Central
 baseurl: /styleguide
-highlighter: rouge
-safe: true
-lsi: false
+highlighter: pygments
