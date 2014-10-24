@@ -1,2 +1,2 @@
 jekyll: bundle exec jekyll serve --baseurl ''
-compass: compass compile && compass watch
+sass: sass --watch assets/sass:assets/css --style compressed

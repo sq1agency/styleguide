@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
 gem 'github-pages'
-gem 'compass'
-gem 'rouge'
 gem 'css_parser'
+gem 'rouge'
