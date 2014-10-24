@@ -2,14 +2,99 @@
 title: Home
 layout: default
 ---
-This is the styleguide!
 
-{% highlight ruby %}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-{% endhighlight %}
+<section>
+	<div class="one column">One</div>
+	<div class="eleven columns">Eleven</div>
+</section>
+
+<section>
+	<div class="two columns">Two</div>
+	<div class="ten columns">Ten</div>
+</section>
+
+<section>
+	<div class="three columns">Three</div>
+	<div class="nine columns">Nine</div>
+</section>
+
+<section>
+	<div class="four columns">Four</div>
+	<div class="eight columns">Eight</div>
+</section>
+
+<section>
+	<div class="five columns">Five</div>
+	<div class="seven columns">Seven</div>
+</section>
+
+<section>
+	<div class="six columns">Six</div>
+	<div class="six columns">Six</div>
+</section>
+
+<section>
+	<div class="seven columns">Seven</div>
+	<div class="five columns">Five</div>
+</section>
+
+<section>
+	<div class="eight columns">Eight</div>
+	<div class="four columns">Four</div>
+</section>
+
+<section>
+	<div class="nine columns">Nine</div>
+	<div class="three columns">Three</div>
+</section>
+
+<section>
+	<div class="ten columns">Ten</div>
+	<div class="two columns">Two</div>
+</section>
+
+<section>
+	<div class="eleven columns">Eleven</div>
+	<div class="one column">One</div>
+</section>
+
+<section>
+	<div class="twelve columns">Twelve</div>
+</section>
+
+
+<ul>
+</ul>
+
+<section>
+	<h1>Meet the Developers</h1>
+	<div class="grid-items-lines">
+		{% for member in site.data.members %}
+			<!-- {{ member }} -->
+		  <a href="javascript:void(0)" class="grid-item">
+		    <img src="{{ member.avatar_url }}" alt="{{ member.login }}">
+		    <h1>{{ member.login }}</h1>
+		    <!-- <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p> -->
+		  </a>
+		{% endfor %}
+
+	  <div class="right-cover"></div>
+	  <div class="bottom-cover"></div>
+	</div>
+</section>
+
+<section>
+	<h1>What We're Working On</h1>
+	<div class="grid-items-lines">
+		{% for repo in site.data.repos %}
+			<!-- {{ repo }} -->
+		  <a href="javascript:void(0)" class="grid-item">
+		    <h1>{{ repo.name }}</h1>
+		    <p>{{ repo.description }}</p>
+		  </a>
+		{% endfor %}
+
+	  <div class="right-cover"></div>
+	  <div class="bottom-cover"></div>
+	</div>
+</section>

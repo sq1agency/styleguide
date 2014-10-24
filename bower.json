@@ -1,7 +1,8 @@
 {
-  "name": "Sq1 Developer Styleguide",
-  "version": "0.0.1",
-  "dependencies": {
-    "bootstrap-sass-twbs": "latest"
-  }
+	"name": "Sq1 Developer Styleguide",
+	"version": "0.0.1",
+	"dependencies": {
+		"normalize-scss": "latest",
+		"prism": "#gh-pages"
+	}
 }
