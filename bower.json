@@ -1,0 +1,7 @@
+{
+  "name": "Sq1 Developer Styleguide",
+  "version": "0.0.1",
+  "dependencies": {
+    "bootstrap-sass-twbs": "latest"
+  }
+}
