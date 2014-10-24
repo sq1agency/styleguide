@@ -61,3 +61,40 @@ layout: default
 <section>
 	<div class="twelve columns">Twelve</div>
 </section>
+
+
+<ul>
+</ul>
+
+<section>
+	<h1>Meet the Developers</h1>
+	<div class="grid-items-lines">
+		{% for member in site.data.members %}
+			<!-- {{ member }} -->
+		  <a href="javascript:void(0)" class="grid-item">
+		    <img src="{{ member.avatar_url }}" alt="{{ member.login }}">
+		    <h1>{{ member.login }}</h1>
+		    <!-- <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p> -->
+		  </a>
+		{% endfor %}
+
+	  <div class="right-cover"></div>
+	  <div class="bottom-cover"></div>
+	</div>
+</section>
+
+<section>
+	<h1>What We're Working On</h1>
+	<div class="grid-items-lines">
+		{% for repo in site.data.repos %}
+			<!-- {{ repo }} -->
+		  <a href="javascript:void(0)" class="grid-item">
+		    <h1>{{ repo.name }}</h1>
+		    <p>{{ repo.description }}</p>
+		  </a>
+		{% endfor %}
+
+	  <div class="right-cover"></div>
+	  <div class="bottom-cover"></div>
+	</div>
+</section>

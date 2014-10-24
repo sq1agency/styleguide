@@ -14,10 +14,7 @@ section, header, footer, div.columns {
 	}
 
 	section {
-		background: $belize-hole;
-		margin-top: 5px;
-		color: $clouds;
-		font-weight: 900;
+		margin: 5px auto 10px auto;
 
 		div.columns, div.column {
 			font-size: 10px;

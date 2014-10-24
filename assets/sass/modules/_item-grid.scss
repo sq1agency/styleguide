@@ -1,0 +1,89 @@
+@mixin grid-item-columns($columns) {
+	width: (100% / 12) * $columns;
+}
+
+.grid-items-lines {
+	$grid-items-background: $base-background-color;
+	$grid-item-background: $base-background-color;
+	$grid-item-border: 1px solid transparentize($base-font-color, .8);
+	$grid-item-color: $base-font-color;
+
+	border: 1px $concrete solid;
+
+	@include clearfix;
+	position: relative;
+
+	.grid-item {
+		@include transition (all 0.2s ease-in-out);
+		height: $grid-item-height;
+		background: $grid-item-background;
+		width: 100%;
+		overflow: hidden;
+		float: left;
+		padding: 1em;
+		border-right: $grid-item-border;
+		border-bottom: $grid-item-border;
+		cursor: pointer;
+
+		@include media($large-screen) {
+			@include grid-item-columns($grid-item-columns);
+		}
+
+		&:hover {
+			background: transparentize($grid-item-color, .95);
+		}
+	}
+
+	.grid-item img {
+		display: inline-block;
+		height: 2.5em;
+		// margin-bottom: 1.2em;
+		opacity: .2;
+	}
+
+	.grid-item h1 {
+		display: inline-block;
+		color: $grid-item-color;
+		font-size: 1.3em;
+		margin-bottom: .4em;
+		vertical-align: top;
+	}
+
+	.grid-item p {
+		color: transparentize($grid-item-color, .4);
+		font-size: 0.9em;
+
+		@include media($medium-screen) {
+			max-width: 70%;
+		}
+	}
+
+	.grid-item-big {
+		@include media($large-screen) {
+			@include grid-item-columns($grid-item-big-columns);
+		}
+		p {
+			@include media($medium-screen) {
+				max-width: 60%;
+			}
+		}
+	}
+
+
+// this, below, might not be the most beautiful solution but it removes the outer borders by using the background color.
+	.bottom-cover {
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+		height: 3px;
+		background: $grid-items-background;
+	}
+
+	.right-cover {
+		position: absolute;
+		right: 0px;
+		height: 100%;
+		width: 4px;
+		background: $grid-items-background;
+	}
+}
